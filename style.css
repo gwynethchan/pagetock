@@ -11,3 +11,6 @@ nav .links a,footer a{display:inline-flex;align-items:center;min-height:44px}
 
 /* Brand wordmark matches the app typography. */
 .brand{font-family:Jost,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;font-weight:400;font-size:24px;color:#f0c77e;gap:8px}
+
+/* Give the habit heading more room on desktop. */
+@media(min-width:761px){.habit .intro{max-width:900px}.habit .intro p{max-width:660px;margin-left:auto;margin-right:auto}}
